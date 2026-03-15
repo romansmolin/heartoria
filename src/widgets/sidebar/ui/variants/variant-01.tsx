@@ -2,10 +2,15 @@
 
 import * as React from 'react'
 import {
+    Activity,
+    Gift,
+    Heart,
     LayoutDashboard,
     LifeBuoy,
+    MessageCircle,
     Send,
     Settings2,
+    User,
     Wallet,
 } from 'lucide-react'
 import {
@@ -31,6 +36,31 @@ const data = {
             title: 'Dashboard',
             url: '/dashboard',
             icon: LayoutDashboard,
+        },
+        {
+            title: 'Discover',
+            url: '/match',
+            icon: Heart,
+        },
+        {
+            title: 'Chat',
+            url: '/chat',
+            icon: MessageCircle,
+        },
+        {
+            title: 'Gifts',
+            url: '/gifts',
+            icon: Gift,
+        },
+        {
+            title: 'Profile',
+            url: '/profile',
+            icon: User,
+        },
+        {
+            title: 'Activity',
+            url: '/activity',
+            icon: Activity,
         },
         {
             title: 'Wallet',

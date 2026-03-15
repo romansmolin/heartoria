@@ -10,32 +10,32 @@ datasource db {
 // Do not modify field names or types
 
 model user {
-  id            String   @id
-  email         String   @unique
-  emailVerified Boolean
-  name          String
-  createdAt     DateTime
-  updatedAt     DateTime
-  image         String?
-
-  sessions           session[]
+  id                 String               @id
+  name               String
+  email              String               @unique
+  emailVerified      Boolean
+  image              String?
+  createdAt          DateTime
+  updatedAt          DateTime
+  username           String?              @unique
   accounts           account[]
-  credits            user_credits?
   creditTransactions credit_transaction[]
   paymentTokens      payment_token[]
+  sessions           session[]
+  credits            user_credits?
 
   @@map("user")
 }
 
 model session {
   id        String   @id
-  expiresAt DateTime
   token     String   @unique
-  createdAt DateTime
-  updatedAt DateTime
+  expiresAt DateTime
   ipAddress String?
   userAgent String?
   userId    String
+  createdAt DateTime
+  updatedAt DateTime
   user      user     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("session")
@@ -78,8 +78,7 @@ model user_credits {
   balance   Int      @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-
-  user user @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user      user     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("user_credits")
 }
@@ -94,12 +93,92 @@ model credit_transaction {
   reason         String?
   paymentTokenId String?                 @unique
   createdAt      DateTime                @default(now())
-
-  user         user           @relation(fields: [userId], references: [id], onDelete: Cascade)
-  paymentToken payment_token? @relation(fields: [paymentTokenId], references: [id], onDelete: SetNull)
+  paymentToken   payment_token?          @relation(fields: [paymentTokenId], references: [id])
+  user           user                    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, createdAt(sort: Desc)])
   @@map("credit_transaction")
+}
+
+model payment_token {
+  id                String              @id @default(cuid())
+  userId            String
+  status            PaymentTokenStatus
+  gatewayUid        String?
+  gatewayToken      String?
+  rawPayload        Json?
+  amountCents       Int
+  currency          String
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  creditTransaction credit_transaction?
+  user              user                @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("payment_token")
+}
+
+// Gift Inventory — tracks what each user owns (namespace-scoped)
+model gift_inventory {
+  id        String   @id @default(cuid())
+  namespace String   @default("")
+  userId    String
+  giftId    String
+  giftName  String   @default("")
+  imagePath String   @default("")
+  quantity  Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([namespace, userId, giftId])
+  @@index([namespace, userId])
+  @@map("gift_inventory")
+}
+
+// Gift Catalog — managed by other projects, kept for shared DB compatibility
+model gift_catalog {
+  id         String   @id
+  slug       String   @unique
+  name       String
+  imagePath  String
+  priceCoins Int
+  isActive   Boolean  @default(true)
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime
+}
+
+// Gift Send — managed by other projects, kept for shared DB compatibility
+model gift_send {
+  id                    String   @id
+  senderUserId          String
+  recipientDatingUserId Int
+  giftId                String
+  priceCoins            Int
+  createdAt             DateTime @default(now())
+
+  @@index([giftId])
+  @@index([recipientDatingUserId, createdAt])
+  @@index([senderUserId, createdAt])
+}
+
+// Gift Transaction — tracks buy/send/receive history (namespace-scoped)
+model gift_transaction {
+  id              String              @id @default(cuid())
+  namespace       String              @default("")
+  type            GiftTransactionType
+  giftId          String
+  giftName        String              @default("")
+  senderId        String?
+  senderUsername  String?
+  receiverId      String?
+  receiverUsername String?
+  creditsCost     Int                 @default(0)
+  createdAt       DateTime            @default(now())
+
+  @@index([namespace, senderId, createdAt(sort: Desc)])
+  @@index([namespace, receiverId, createdAt(sort: Desc)])
+  @@map("gift_transaction")
 }
 
 enum TransactionType {
@@ -115,25 +194,6 @@ enum CreditTransactionStatus {
   FAILED
 }
 
-model payment_token {
-  id           String             @id @default(cuid())
-  userId       String
-  status       PaymentTokenStatus
-  gatewayUid   String?
-  gatewayToken String?
-  rawPayload   Json?
-  amountCents  Int
-  currency     String
-  createdAt    DateTime           @default(now())
-  updatedAt    DateTime           @updatedAt
-
-  user              user                @relation(fields: [userId], references: [id], onDelete: Cascade)
-  creditTransaction credit_transaction?
-
-  @@index([userId, createdAt(sort: Desc)])
-  @@map("payment_token")
-}
-
 enum PaymentTokenStatus {
   CREATED
   PENDING
@@ -142,4 +202,10 @@ enum PaymentTokenStatus {
   DECLINED
   EXPIRED
   ERROR
+}
+
+enum GiftTransactionType {
+  BUY
+  SEND
+  RECEIVE
 }

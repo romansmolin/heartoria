@@ -3,6 +3,24 @@ import { auth } from './auth.config';
 
 export async function getSession() {
   const cookieStore = await cookies();
+
+  // Primary auth: check dating session cookies
+  const datingSessionId = cookieStore.get('dating_session_id')?.value;
+  const datingUserId = cookieStore.get('dating_user_id')?.value;
+
+  if (datingSessionId && datingUserId) {
+    return {
+      session: {
+        id: datingSessionId,
+        userId: datingUserId,
+      },
+      user: {
+        id: datingUserId,
+      },
+    };
+  }
+
+  // Fallback: Better Auth session
   const secureSessionToken = cookieStore.get('__Secure-better-auth.session_token')?.value;
   const sessionToken = cookieStore.get('better-auth.session_token')?.value;
   const token = secureSessionToken ?? sessionToken;

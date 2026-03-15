@@ -1,4 +1,4 @@
-export type HeaderVariant = 'variant-01'
+export type HeaderVariant = 'variant-01' | 'variant-02'
 
 export interface NavigationLink {
     title: string

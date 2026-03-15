@@ -1,0 +1,75 @@
+[   19170ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:2297
+[   19171ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:2297
+[  179185ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:2297
+[  180473ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/rose.png:0
+[  180473ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/teddy.png:0
+[  180474ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/chocolate.png:0
+[  180482ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/perfume.png:0
+[  180500ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/necklace.png:0
+[  180502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/ring.png:0
+[  180545ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/yacht.png:0
+[  180552ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/mansion.png:0
+[  180557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/car.png:0
+[  255293ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/teddy.png:0
+[  255293ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/perfume.png:0
+[  255296ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/necklace.png:0
+[  255296ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/ring.png:0
+[  255319ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/yacht.png:0
+[  255332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/mansion.png:0
+[  255333ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/car.png:0
+[  581156ms] [ERROR] ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx:8:1
+Module not found: Can't resolve './components/gift-history-section'
+   6 | import { useWallet } from '@/features/credit-wallet'
+   7 | import { GiftShopSection } from './components/gift-shop-section'
+>  8 | import { GiftHistorySection } from './components/gift-history-section'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function GiftsView() {
+  11 |     const { wallet } = useWallet()
+
+Import trace:
+  Server Component:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127
+[  595676ms] [ERROR] ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx:8:1
+Module not found: Can't resolve './components/gift-history-section'
+   6 | import { useWallet } from '@/features/credit-wallet'
+   7 | import { GiftShopSection } from './components/gift-shop-section'
+>  8 | import { GiftHistorySection } from './components/gift-history-section'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function GiftsView() {
+  11 |     const { wallet } = useWallet()
+
+Import trace:
+  Server Component:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127
+[  609682ms] [ERROR] ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx:8:1
+Module not found: Can't resolve './components/gift-history-section'
+   6 | import { useWallet } from '@/features/credit-wallet'
+   7 | import { GiftShopSection } from './components/gift-shop-section'
+>  8 | import { GiftHistorySection } from './components/gift-history-section'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export function GiftsView() {
+  11 |     const { wallet } = useWallet()
+
+Import trace:
+  Server Component:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127
+[  621288ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:2297

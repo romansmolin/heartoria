@@ -1,7 +1,7 @@
 import { ReactNode, ComponentType } from 'react'
 import { LucideProps } from 'lucide-react'
 
-export type FeaturesVariant = 'variant-01' | 'variant-02' | 'variant-03' | 'variant-04'
+export type FeaturesVariant = 'variant-01' | 'variant-02' | 'variant-03' | 'variant-04' | 'variant-05'
 
 export interface Feature {
     title: string

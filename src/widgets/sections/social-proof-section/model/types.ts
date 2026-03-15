@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export type SocialProofVariant = 'variant-01' | 'variant-02'
+export type SocialProofVariant = 'variant-01' | 'variant-02' | 'variant-03'
 
 export interface SocialProofStat {
     value: string

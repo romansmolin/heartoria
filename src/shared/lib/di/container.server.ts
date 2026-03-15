@@ -28,6 +28,11 @@ import { UpdatePaymentFromReturnUseCase } from '@/entities/payment/api/server/us
 import { HandlePaymentWebhookUseCase } from '@/entities/payment/api/server/use-cases/handle-payment-webhook.usecase'
 import { SecureProcessorReturnController } from '@/entities/payment/api/server/controller/secure-processor-return.controller'
 import { SecureProcessorWebhookController } from '@/entities/payment/api/server/controller/secure-processor-webhook.controller'
+import { GiftRepository } from '@/entities/gift/api/server/repositories/gift.repo'
+import { GiftService } from '@/entities/gift/api/server/services/gift.service'
+import { GiftController } from '@/entities/gift/api/server/controllers/gift.controller'
+import { GIFT_PORT_TOKENS } from '@/entities/gift/model/ports/match-reader.port'
+import { MatchService } from '@/entities/match/api/server/services/match.service'
 
 /**
  * IoC container for server-side dependency injection
@@ -67,6 +72,12 @@ export function initializeContainer(): void {
     container.bind(HandlePaymentWebhookUseCase).toSelf()
     container.bind(SecureProcessorReturnController).toSelf()
     container.bind(SecureProcessorWebhookController).toSelf()
+
+    // Gift entity bindings
+    container.bind(GiftRepository).toSelf()
+    container.bind(GiftService).toSelf()
+    container.bind(GiftController).toSelf()
+    container.bind(GIFT_PORT_TOKENS.MatchReaderPort).to(MatchService)
 }
 
 // Initialize container on module load

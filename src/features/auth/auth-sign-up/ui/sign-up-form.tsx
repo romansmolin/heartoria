@@ -49,17 +49,17 @@ export function SignUpForm() {
             )}
 
             <div className="space-y-2">
-                <Label htmlFor="name">Name</Label>
+                <Label htmlFor="username">Username</Label>
                 <Input
-                    id="name"
+                    id="username"
                     type="text"
-                    placeholder="John Doe"
-                    {...register('name')}
-                    data-testid="name-input"
+                    placeholder="johndoe123"
+                    {...register('username')}
+                    data-testid="username-input"
                 />
-                {errors.name && (
-                    <p className="text-sm text-destructive" data-testid="name-error">
-                        {errors.name.message}
+                {errors.username && (
+                    <p className="text-sm text-destructive" data-testid="username-error">
+                        {errors.username.message}
                     </p>
                 )}
             </div>
@@ -97,19 +97,70 @@ export function SignUpForm() {
             </div>
 
             <div className="space-y-2">
-                <Label htmlFor="confirmPassword">Confirm Password</Label>
-                <Input
-                    id="confirmPassword"
-                    type="password"
-                    placeholder="••••••••"
-                    {...register('confirmPassword')}
-                    data-testid="confirm-password-input"
-                />
-                {errors.confirmPassword && (
-                    <p className="text-sm text-destructive" data-testid="confirm-password-error">
-                        {errors.confirmPassword.message}
+                <Label htmlFor="gender">Gender</Label>
+                <select
+                    id="gender"
+                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    {...register('gender')}
+                    data-testid="gender-select"
+                >
+                    <option value="">Select gender</option>
+                    <option value="man">Man</option>
+                    <option value="woman">Woman</option>
+                    <option value="non_binary">Non-binary</option>
+                    <option value="other">Other</option>
+                </select>
+                {errors.gender && (
+                    <p className="text-sm text-destructive" data-testid="gender-error">
+                        {errors.gender.message}
                     </p>
                 )}
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="lookingFor">Looking for</Label>
+                <select
+                    id="lookingFor"
+                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    {...register('lookingFor')}
+                    data-testid="looking-for-select"
+                >
+                    <option value="">Select preference</option>
+                    <option value="man">Man</option>
+                    <option value="women">Women</option>
+                    <option value="couple">Couple</option>
+                </select>
+                {errors.lookingFor && (
+                    <p className="text-sm text-destructive" data-testid="looking-for-error">
+                        {errors.lookingFor.message}
+                    </p>
+                )}
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="dateOfBirth">Date of birth</Label>
+                <Input
+                    id="dateOfBirth"
+                    type="date"
+                    {...register('dateOfBirth')}
+                    data-testid="date-of-birth-input"
+                />
+                {errors.dateOfBirth && (
+                    <p className="text-sm text-destructive" data-testid="date-of-birth-error">
+                        {errors.dateOfBirth.message}
+                    </p>
+                )}
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="city">City (optional)</Label>
+                <Input
+                    id="city"
+                    type="text"
+                    placeholder="Your city"
+                    {...register('city')}
+                    data-testid="city-input"
+                />
             </div>
 
             <div className="space-y-2">

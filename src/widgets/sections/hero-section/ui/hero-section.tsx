@@ -13,6 +13,8 @@ import {
 } from '../lib/hero-section.mock'
 import { HeroVariant07 } from './variants/variant-07'
 import { HeroVariant08 } from './variants/variant-08'
+import { HeroVariant09 } from './variants/variant-09'
+import { HeroVariant10 } from './variants/variant-10'
 
 const defaultVariant02Content: HeroContent = {
     headlineLine1: 'Your Product',
@@ -127,6 +129,15 @@ const defaultVariantContent: Record<HeroVariant, HeroContent> = {
     'variant-06': defaultVariant06Content,
     'variant-07': defaultVariant07Content,
     'variant-08': defaultVariant08Content,
+    'variant-09': defaultVariant08Content,
+    'variant-10': {
+        headlineLine1: 'Where Real',
+        headlineLine2: 'Connections Begin',
+        subtitle:
+            'Smart compatibility matching, virtual gifts, and real-time chat — everything you need to find someone who truly fits your life.',
+        primaryCta: { label: 'Start Matching', href: '/auth' },
+        secondaryCta: { label: 'Learn More', href: '#features' },
+    },
 }
 
 const defaultUserAvatars = [
@@ -189,6 +200,10 @@ export const HeroSection = ({
             return <HeroVariant07 {...variantProps} />
         case 'variant-08':
             return <HeroVariant08 {...variantProps} />
+        case 'variant-09':
+            return <HeroVariant09 {...variantProps} />
+        case 'variant-10':
+            return <HeroVariant10 {...variantProps} />
         default:
             return <HeroVariant02 {...variantProps} />
     }

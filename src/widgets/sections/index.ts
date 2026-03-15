@@ -19,3 +19,9 @@ export { CtaSection } from './cta-section'
 
 // Pricing
 export { PricingSection } from './pricing-section'
+
+// New Sections
+export { InfoGridSection } from './info-grid-section'
+export { AgendaSection } from './agenda-section'
+export { SpeakersSection } from './speakers-section'
+export { ContactSection } from './contact-section'

@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import '../globals.css'
 import { Providers } from '../providers'
-import { Header } from '@/widgets/header'
-import { Footer } from '@/widgets/footer'
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
@@ -16,9 +14,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-    title: 'Your Brand',
-    description: 'Your Brand description.',
-    applicationName: 'Your Brand',
+    title: 'Nexus AI Summit 2026',
+    description: 'The premier gathering for AI innovators, researchers, and business leaders.',
+    applicationName: 'Nexus AI Summit',
     robots: {
         index: true,
         follow: true,
@@ -31,13 +29,9 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className="dark">
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                <Providers>
-                    <Header />
-                    <main className="flex flex-col min-h-screen">{children}</main>
-                    <Footer />
-                </Providers>
+                <Providers>{children}</Providers>
             </body>
         </html>
     )

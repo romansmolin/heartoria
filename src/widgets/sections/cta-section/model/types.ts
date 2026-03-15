@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export type CtaVariant = 'variant-01' | 'variant-02'
+export type CtaVariant = 'variant-01' | 'variant-02' | 'variant-03'
 
 export interface CtaButton {
     label: string

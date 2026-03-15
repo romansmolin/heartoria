@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export type TestimonialsVariant = 'variant-01' | 'variant-02' | 'variant-03'
+export type TestimonialsVariant = 'variant-01' | 'variant-02' | 'variant-03' | 'variant-04'
 
 export type TestimonialPlatform = 'twitter' | 'producthunt'
 

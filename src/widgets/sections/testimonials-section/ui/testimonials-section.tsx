@@ -2,6 +2,7 @@ import { TestimonialsSectionProps } from '../model/types'
 import { TestimonialsVariant01 } from './variants/variant-01'
 import { TestimonialsVariant02 } from './variants/variant-02'
 import { TestimonialsVariant03 } from './variants/variant-03'
+import { TestimonialsVariant04 } from './variants/variant-04'
 
 export const TestimonialsSection = ({
     variant = 'variant-01',
@@ -20,6 +21,8 @@ export const TestimonialsSection = ({
             return <TestimonialsVariant02 {...variantProps} />
         case 'variant-03':
             return <TestimonialsVariant03 {...variantProps} />
+        case 'variant-04':
+            return <TestimonialsVariant04 {...variantProps} />
         default:
             return <TestimonialsVariant01 {...variantProps} />
     }

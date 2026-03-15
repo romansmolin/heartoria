@@ -1,4 +1,4 @@
-export type PricingVariant = 'variant-01' | 'variant-02' | 'variant-03'
+export type PricingVariant = 'variant-01' | 'variant-02' | 'variant-03' | 'variant-04'
 
 export interface PricingPlanFeature {
     title: string

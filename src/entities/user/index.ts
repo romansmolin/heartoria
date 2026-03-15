@@ -3,6 +3,27 @@ export { UserMenu } from './ui/user-menu'
 
 // User Types
 export type { User } from './model/types'
+export type {
+    UserGender,
+    UserProfilePhoto,
+    UserProfile,
+    UserProfileResponse,
+    UpdateProfileRequest,
+    UpdateProfileResponse,
+    ProfileAdvicePriority,
+    ProfileAdviceCategory,
+    ProfileAdviceItem,
+    AnalyzeProfileRequest,
+    AnalyzeProfileResponse,
+} from './model/types'
+
+// Client hooks
+export {
+    useGetCurrentUserQuery,
+    useGetUserProfileQuery,
+    useUpdateUserProfileMutation,
+    useAnalyzeUserProfileMutation,
+} from './api/client/endpoints'
 
 // Server-side exports (use with caution - only in server contexts)
 export { GetCurrentUserController } from './api/server/controller/get-current-user.controller'

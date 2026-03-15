@@ -7,6 +7,8 @@ export type HeroVariant =
     | 'variant-06'
     | 'variant-07'
     | 'variant-08'
+    | 'variant-09'
+    | 'variant-10'
 
 export interface NavItem {
     label: string

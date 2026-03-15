@@ -1,0 +1,68 @@
+import type { Speaker } from '../model/types'
+
+export const defaultSpeakers: Speaker[] = [
+    {
+        name: 'Sophia',
+        role: 'Photographer',
+        company: 'New York',
+        age: 26,
+        location: 'New York, NY',
+        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'James',
+        role: 'Software Engineer',
+        company: 'San Francisco',
+        age: 29,
+        location: 'San Francisco, CA',
+        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Maya',
+        role: 'Yoga Instructor',
+        company: 'Los Angeles',
+        age: 24,
+        location: 'Los Angeles, CA',
+        image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Daniel',
+        role: 'Architect',
+        company: 'Chicago',
+        age: 31,
+        location: 'Chicago, IL',
+        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Emma',
+        role: 'Marketing Director',
+        company: 'Austin',
+        age: 27,
+        location: 'Austin, TX',
+        image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Marcus',
+        role: 'Chef',
+        company: 'Miami',
+        age: 32,
+        location: 'Miami, FL',
+        image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Olivia',
+        role: 'Interior Designer',
+        company: 'Seattle',
+        age: 25,
+        location: 'Seattle, WA',
+        image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=500&fit=crop&crop=faces',
+    },
+    {
+        name: 'Ethan',
+        role: 'Music Producer',
+        company: 'Nashville',
+        age: 28,
+        location: 'Nashville, TN',
+        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=faces',
+    },
+]

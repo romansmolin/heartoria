@@ -7,6 +7,14 @@ const globalForPrisma = globalThis as unknown as {
     prismaPool: Pool | undefined
 }
 
+// Schema version — bump to invalidate cached Prisma client after schema changes
+const SCHEMA_VERSION = 2
+const globalSchemaVersion = globalThis as unknown as { __prismaSchemaVersion?: number }
+if (globalSchemaVersion.__prismaSchemaVersion !== SCHEMA_VERSION) {
+    globalForPrisma.prisma = undefined
+    globalSchemaVersion.__prismaSchemaVersion = SCHEMA_VERSION
+}
+
 export const prisma =
     globalForPrisma.prisma ??
     (() => {

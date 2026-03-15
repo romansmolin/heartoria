@@ -1,0 +1,9 @@
+[   31211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/rose.png:0
+[   31212ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/teddy.png:0
+[   31218ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-1/chocolate.png:0
+[   31233ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/perfume.png:0
+[   31254ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/necklace.png:0
+[   31254ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-2/ring.png:0
+[   31292ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/yacht.png:0
+[   31299ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/mansion.png:0
+[   31303ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/gifts-3/car.png:0

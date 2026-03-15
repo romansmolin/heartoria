@@ -3,6 +3,7 @@ import { defaultPlans } from '../lib/pricing-section.mock'
 import { Variant01 } from './variants/variant-01'
 import { Variant02 } from './variants/variant-02'
 import { PricingVariant03 } from './variants/variant-03'
+import { PricingVariant04 } from './variants/variant-04'
 
 export function PricingSection({
     variant = 'variant-01',
@@ -14,6 +15,8 @@ export function PricingSection({
             return <Variant02 plans={plans} {...props} />
         case 'variant-03':
             return <PricingVariant03 plans={plans} {...props} />
+        case 'variant-04':
+            return <PricingVariant04 plans={plans} {...props} />
         case 'variant-01':
         default:
             return <Variant01 plans={plans} {...props} />

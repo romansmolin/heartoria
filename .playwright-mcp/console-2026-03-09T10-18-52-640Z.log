@@ -1,0 +1,53 @@
+[   98061ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  470422ms] [ERROR] ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx:6:1
+Export getTier doesn't exist in target module
+  4 | import { useGetGiftCatalogQuery } from '@/entities/gift'
+  5 | import { useBuyGift } from '@/features/gifts/buy-gift'
+> 6 | import { GiftShopCard, getTier } from './gift-shop-card'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface GiftShopSectionProps {
+  9 |     activeCategory: string | null
+
+The export getTier was not found in module [project]/Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-card.tsx [app-client] (ecmascript).
+Did you mean to import GiftShopCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx [Client Component Browser]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Client Component Browser]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Server Component]
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx [Client Component SSR]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Client Component SSR]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Server Component]
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127
+[  470422ms] [ERROR] ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx:6:1
+Export getTier doesn't exist in target module
+  4 | import { useGetGiftCatalogQuery } from '@/entities/gift'
+  5 | import { useBuyGift } from '@/features/gifts/buy-gift'
+> 6 | import { GiftShopCard, getTier } from './gift-shop-card'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface GiftShopSectionProps {
+  9 |     activeCategory: string | null
+
+The export getTier was not found in module [project]/Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-card.tsx [app-ssr] (ecmascript).
+Did you mean to import GiftShopCard?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx [Client Component Browser]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Client Component Browser]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Server Component]
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/components/gift-shop-section.tsx [Client Component SSR]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Client Component SSR]
+    ./Desktop/dating-app/heartoria/src/views/gifts-page/ui/gifts-view.tsx [Server Component]
+    ./Desktop/dating-app/heartoria/src/app/(app)/gifts/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127

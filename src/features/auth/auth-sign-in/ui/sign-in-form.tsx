@@ -25,6 +25,7 @@ export function SignInForm() {
     } = useForm<SignInDto>({
         resolver: zodResolver(signInSchema),
         defaultValues: {
+            rememberMe: false,
             consent: false,
         },
     })
@@ -49,17 +50,17 @@ export function SignInForm() {
             )}
 
             <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="username">Username</Label>
                 <Input
-                    id="email"
-                    type="email"
-                    placeholder="john@example.com"
-                    {...register('email')}
-                    data-testid="email-input"
+                    id="username"
+                    type="text"
+                    placeholder="Enter your username"
+                    {...register('username')}
+                    data-testid="username-input"
                 />
-                {errors.email && (
-                    <p className="text-sm text-destructive" data-testid="email-error">
-                        {errors.email.message}
+                {errors.username && (
+                    <p className="text-sm text-destructive" data-testid="username-error">
+                        {errors.username.message}
                     </p>
                 )}
             </div>
@@ -78,6 +79,19 @@ export function SignInForm() {
                         {errors.password.message}
                     </p>
                 )}
+            </div>
+
+            <div className="flex items-center gap-2">
+                <input
+                    id="rememberMe"
+                    type="checkbox"
+                    className="h-4 w-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900"
+                    {...register('rememberMe')}
+                    data-testid="remember-me-checkbox"
+                />
+                <Label htmlFor="rememberMe" className="text-sm font-normal text-slate-600">
+                    Remember me
+                </Label>
             </div>
 
             <div className="space-y-2">

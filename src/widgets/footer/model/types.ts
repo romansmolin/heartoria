@@ -1,4 +1,4 @@
-export type FooterVariant = 'variant-01'
+export type FooterVariant = 'variant-01' | 'variant-02'
 
 export interface FooterLink {
     text: string

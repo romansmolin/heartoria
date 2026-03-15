@@ -1,0 +1,3808 @@
+[       1ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:3127
+[      59ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/auth:0
+[     128ms] Error: ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/romansmolin/Desktop/dating-app/heartoria/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1008:59)
+    at DevBundlerService.getCompilationError (file:///Users/romansmolin/Desktop/dating-app/heartoria/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/romansmolin/Desktop/dating-app/heartoria/node_modules/next/dist/server/dev/next-dev-server.js:706:42)
+    at DevServer.findPageComponents (file:///Users/romansmolin/Desktop/dating-app/heartoria/node_modules/next/dist/server/dev/next-dev-server.js:676:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/romansmolin/Desktop/dating-app/heartoria/node_modules/next/dist/server/base-server.js:1713:26)
+[     129ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     171ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     218ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     264ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     311ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     356ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     402ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     449ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     496ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     542ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     589ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     635ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     683ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     728ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     779ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     827ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     877ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     924ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[     973ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1021ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1068ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1115ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1161ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1207ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1254ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1302ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1349ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1397ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1444ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1494ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1542ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1589ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1636ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1684ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1733ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1782ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1830ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1880ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1930ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    1978ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2029ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2080ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2129ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2178ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2226ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2273ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2321ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2369ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2418ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2466ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2516ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2565ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2614ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2663ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2711ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2758ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2807ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2856ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2907ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    2956ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3004ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3050ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3099ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3148ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3197ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3245ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3293ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3341ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3390ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3442ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3492ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3542ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3589ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3635ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3682ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3730ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3779ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3828ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3878ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3926ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    3975ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4024ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4072ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4119ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4166ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4218ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4266ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4313ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4360ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4406ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4452ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4500ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4550ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4598ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4647ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4697ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4746ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4797ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4844ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4893ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4941ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    4990ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5039ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5090ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5141ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5192ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5241ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5291ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5340ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5389ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5439ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5489ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5538ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5589ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5640ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5689ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5739ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5790ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5839ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5889ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5940ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    5990ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6041ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6087ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6134ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6178ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6224ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6273ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6328ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6379ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6432ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6482ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6530ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6578ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6626ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6677ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6729ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6778ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6829ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6879ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6928ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    6976ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7023ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7072ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7122ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7172ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7222ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7272ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7323ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7374ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7425ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7476ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7524ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7576ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7626ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7678ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7728ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7777ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7827ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7877ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7928ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    7978ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8029ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8085ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8133ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8182ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8231ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8281ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8332ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8383ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8433ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8483ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8534ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8587ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8634ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8681ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8729ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8779ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8828ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8877ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8926ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    8977ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9026ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9075ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9121ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9169ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9220ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9271ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9320ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9371ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9421ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9471ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9523ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9573ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9623ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9674ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9724ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9775ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9824ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9875ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9925ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[    9976ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10025ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10075ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10124ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10174ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10224ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10274ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10322ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10371ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10418ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10465ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10513ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10564ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10616ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10664ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10715ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10765ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10813ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10864ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10912ms] [ERROR] ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts:3:1
+Module not found: Can't resolve '../../../../node_modules/@types/pg'
+  1 | import { PrismaClient } from '@prisma/client'
+  2 | import { PrismaPg } from '@prisma/adapter-pg'
+> 3 | import { Pool } from '../../../../node_modules/@types/pg'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |     prisma: PrismaClient | undefined
+
+Import trace:
+  App Route:
+    ./Desktop/dating-app/heartoria/src/shared/lib/database/prisma.ts
+    ./Desktop/dating-app/heartoria/src/shared/lib/auth/auth.config.ts
+    ./Desktop/dating-app/heartoria/src/app/api/auth/[...auth]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/166bf_next_dist_993ae90f._.js:1920
+[   10939ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed:  @ http://localhost:3000/_next/static/chunks/166bf_next_dist_client_b40c727f._.js:2266
+[   11942ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/166bf_next_dist_client_b40c727f._.js:2266
+[   12945ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/166bf_next_dist_client_b40c727f._.js:2266
+[   13947ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/166bf_next_dist_client_b40c727f._.js:2266
+[   14949ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/166bf_next_dist_client_b40c727f._.js:2266

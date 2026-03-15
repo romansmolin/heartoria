@@ -4,11 +4,20 @@ import type { NextRequest } from 'next/server'
 export async function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl
 
-    // Get session cookie
-    const sessionToken = request.cookies.get('better-auth.session_token')
+    // Get session cookie (dual check)
+    const sessionToken =
+        request.cookies.get('better-auth.session_token') ??
+        request.cookies.get('dating_session_id')
 
     // Protected routes that require authentication
-    const isProtectedRoute = pathname.startsWith('/dashboard') || pathname.startsWith('/wallet')
+    const isProtectedRoute =
+        pathname.startsWith('/dashboard') ||
+        pathname.startsWith('/wallet') ||
+        pathname.startsWith('/match') ||
+        pathname.startsWith('/chat') ||
+        pathname.startsWith('/profile') ||
+        pathname.startsWith('/gifts') ||
+        pathname.startsWith('/activity')
 
     // Auth routes that should redirect to dashboard if already authenticated
     const isAuthRoute = pathname.startsWith('/auth')
@@ -29,5 +38,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-    matcher: ['/((?!_next/static|_next/image|favicon.ico|public|api).*)'],
+    matcher: ['/((?!_next/static|_next/image|favicon.ico|public|api|gifts-1|gifts-2|gifts-3).*)'],
 }
