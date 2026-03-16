@@ -11,6 +11,7 @@ import type {
     BuyGiftResponse,
     SendGiftResponse,
     GiftHistoryResponse,
+    ReceivedGiftsResponse,
 } from '../../../model/types'
 
 @injectable()
@@ -55,6 +56,24 @@ export class GiftService {
                 giftName: resolveGiftDisplayName(r.giftSlug, r.giftName),
                 giftImagePath: resolveGiftImagePath(r.giftSlug, r.giftImagePath),
                 recipientUserId: r.recipientDatingUserId,
+                priceCoins: r.priceCoins,
+                createdAt: r.createdAt.toISOString(),
+            })),
+        }
+    }
+
+    async listReceivedGifts(userId: string, limit?: number): Promise<ReceivedGiftsResponse> {
+        const datingUserId = parseInt(userId, 10)
+        if (isNaN(datingUserId)) return { items: [] }
+
+        const rows = await this.repo.listReceivedGifts(datingUserId, limit)
+        return {
+            items: rows.map((r) => ({
+                id: r.id,
+                giftId: r.giftId,
+                giftName: resolveGiftDisplayName(r.giftSlug, r.giftName),
+                giftImagePath: resolveGiftImagePath(r.giftSlug, r.giftImagePath),
+                senderUserId: r.senderUserId,
                 priceCoins: r.priceCoins,
                 createdAt: r.createdAt.toISOString(),
             })),

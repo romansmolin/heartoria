@@ -1,10 +1,11 @@
 import { api } from '@/shared/api/client/api'
 import { normalizeError } from '@/shared/api/client/error-normalizer'
-import { getGiftCatalog, getGiftInventory, getGiftHistory, buyGift, sendGift } from './services/gift.service'
+import { getGiftCatalog, getGiftInventory, getGiftHistory, getReceivedGifts, buyGift, sendGift } from './services/gift.service'
 import type {
     GiftCatalogResponse,
     GiftInventoryResponse,
     GiftHistoryResponse,
+    ReceivedGiftsResponse,
     BuyGiftRequest,
     BuyGiftResponse,
     SendGiftRequest,
@@ -35,6 +36,24 @@ export const giftApi = api.injectEndpoints({
             queryFn: async () => {
                 try {
                     const data = await getGiftInventory()
+                    return { data }
+                } catch (error) {
+                    const normalized = normalizeError(error)
+                    return {
+                        error: {
+                            status: 'CUSTOM_ERROR' as const,
+                            data: normalized,
+                            error: normalized.message,
+                        },
+                    }
+                }
+            },
+            providesTags: ['Gift'],
+        }),
+        getReceivedGifts: builder.query<ReceivedGiftsResponse, void>({
+            queryFn: async () => {
+                try {
+                    const data = await getReceivedGifts()
                     return { data }
                 } catch (error) {
                     const normalized = normalizeError(error)
@@ -109,6 +128,7 @@ export const giftApi = api.injectEndpoints({
 export const {
     useGetGiftCatalogQuery,
     useGetGiftInventoryQuery,
+    useGetReceivedGiftsQuery,
     useGetGiftHistoryQuery,
     useBuyGiftMutation,
     useSendGiftMutation,

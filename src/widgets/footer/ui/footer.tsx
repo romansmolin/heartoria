@@ -13,7 +13,15 @@ export const Footer = ({
     bottomLinks,
     companyInfo,
 }: FooterProps) => {
-    const variantProps = { logo, className, tagline, menuItems, copyright, bottomLinks, companyInfo }
+    const variantProps = {
+        logo,
+        className,
+        tagline,
+        menuItems,
+        copyright,
+        bottomLinks,
+        companyInfo,
+    }
 
     switch (variant) {
         case 'variant-02':

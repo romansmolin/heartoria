@@ -13,36 +13,54 @@ export function CompatibilityScore({ candidateId }: CompatibilityScoreProps) {
 
     const scoreColor = data
         ? data.score >= 80
-            ? 'text-green-600'
+            ? 'text-green-500'
             : data.score >= 50
-                ? 'text-yellow-600'
+                ? 'text-yellow-500'
                 : 'text-red-500'
         : ''
 
+    const scoreBg = data
+        ? data.score >= 80
+            ? 'bg-green-500/10 border-green-500/20'
+            : data.score >= 50
+                ? 'bg-yellow-500/10 border-yellow-500/20'
+                : 'bg-red-500/10 border-red-500/20'
+        : ''
+
     return (
-        <div className="space-y-3">
+        <div className="w-full max-w-sm">
             {!data ? (
                 <Button
                     variant="outline"
                     size="sm"
                     disabled={isLoading}
                     onClick={() => getScore({ candidateId })}
+                    className="w-full rounded-xl border-primary/20 bg-primary/5 text-primary hover:bg-primary/10"
                 >
                     <Sparkles className="mr-2 h-4 w-4" />
-                    {isLoading ? 'Analyzing...' : 'Check Compatibility'}
+                    {isLoading ? 'Analyzing compatibility...' : 'Check Compatibility'}
                 </Button>
             ) : (
-                <div className="space-y-2 rounded-lg border p-4">
-                    <div className="flex items-center gap-2">
+                <div className={`rounded-2xl border p-4 ${scoreBg}`}>
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                            <Sparkles className="h-4 w-4 text-primary" />
+                            <span className="text-xs font-medium text-muted-foreground">
+                                Compatibility
+                            </span>
+                        </div>
                         <span className={`text-2xl font-bold ${scoreColor}`}>{data.score}%</span>
-                        <span className="text-sm text-muted-foreground">compatibility</span>
                     </div>
-                    <p className="text-sm">{data.summary}</p>
+                    <p className="mt-2 text-sm leading-relaxed">{data.summary}</p>
                     {data.reasons.length > 0 && (
-                        <ul className="space-y-1">
+                        <ul className="mt-3 space-y-1.5 border-t border-border/50 pt-3">
                             {data.reasons.map((reason, i) => (
-                                <li key={i} className="text-xs text-muted-foreground">
-                                    &bull; {reason}
+                                <li
+                                    key={i}
+                                    className="flex items-start gap-2 text-xs text-muted-foreground"
+                                >
+                                    <span className="mt-0.5 h-1 w-1 shrink-0 rounded-full bg-primary" />
+                                    {reason}
                                 </li>
                             ))}
                         </ul>

@@ -2,7 +2,7 @@ import { ActivityView } from '@/views/activity-page'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Your Brand — Activity',
+    title: 'HeartOria — Activity',
     description: 'See community activity.',
 }
 

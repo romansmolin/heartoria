@@ -34,9 +34,9 @@ const defaultMenuItems: FooterMenuItem[] = [
 ]
 
 const defaultCompanyInfo: FooterCompanyInfo = {
-    name: 'Your Company Name',
-    address: ['123 Main Street', 'City, 00000, Country'],
-    registrationNumber: 'REG: 0000000000',
+    name: 'SYNEXGEN Sp. z o.o.',
+    address: ['Aleja Jana Pawla II, nr 27', 'Warszawa, 00-867, Polska'],
+    registrationNumber: '',
 }
 
 export const FooterVariant01 = ({

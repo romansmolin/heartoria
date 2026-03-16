@@ -47,6 +47,7 @@ export async function POST(request: NextRequest) {
         const summaryIndex = seed % SUMMARIES.length
         const reasonCount = 2 + (seed % 3) // 2-4 reasons
         const reasons: string[] = []
+
         for (let i = 0; i < reasonCount; i++) {
             reasons.push(REASONS_POOL[(seed + i) % REASONS_POOL.length])
         }
@@ -61,9 +62,6 @@ export async function POST(request: NextRequest) {
     } catch (error) {
         console.error('[Match Compatibility]', error)
         const message = error instanceof Error ? error.message : 'Failed to calculate compatibility'
-        return NextResponse.json(
-            { error: { code: 'INTERNAL_ERROR', message } },
-            { status: 500 },
-        )
+        return NextResponse.json({ error: { code: 'INTERNAL_ERROR', message } }, { status: 500 })
     }
 }

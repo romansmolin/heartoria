@@ -3,6 +3,7 @@ import type {
     GiftCatalogResponse,
     GiftInventoryResponse,
     GiftHistoryResponse,
+    ReceivedGiftsResponse,
     BuyGiftRequest,
     BuyGiftResponse,
     SendGiftRequest,
@@ -21,6 +22,11 @@ export async function getGiftInventory(): Promise<GiftInventoryResponse> {
 
 export async function getGiftHistory(): Promise<GiftHistoryResponse> {
     const response = await apiClient.get<GiftHistoryResponse>('/api/gifts/history')
+    return response.data
+}
+
+export async function getReceivedGifts(): Promise<ReceivedGiftsResponse> {
+    const response = await apiClient.get<ReceivedGiftsResponse>('/api/gifts/received')
     return response.data
 }
 

@@ -16,6 +16,16 @@ import { navigationData as defaultNavigationData } from '../../lib/header.mock'
 import { Logo } from '@/shared/components/logo/logo'
 import { NavigationData } from '../../model/types'
 
+function scrollToSection(href: string) {
+    const id = href.replace('#', '')
+    const el = document.getElementById(id)
+    if (!el) return
+
+    // Make the section visible in case GSAP hid it
+    el.style.visibility = 'visible'
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
 interface HeaderVariant01Props {
     className?: string
     navigationData?: NavigationData
@@ -57,7 +67,7 @@ export function HeaderVariant01({
                                                 <div className="flex h-full w-full select-none flex-col justify-end rounded-2xl bg-linear-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md hover:shadow-lg transition-shadow">
                                                     <LayoutGrid className="h-6 w-6" />
                                                     <div className="mb-2 mt-4 text-lg font-medium">
-                                                        Your Brand Design
+                                                        HeartOria Design
                                                     </div>
                                                     <p className="text-sm leading-tight text-muted-foreground">
                                                         Beautifully designed components built with
@@ -78,89 +88,21 @@ export function HeaderVariant01({
                                     </ul>
                                 </NavigationMenuContent> */}
 
-                                <NavigationMenuLink
-                                    className={cn(
-                                        navigationMenuTriggerStyle(),
-                                        'rounded-full bg-transparent hover:bg-transparent hover:text-foreground/80',
-                                    )}
-                                    asChild
-                                >
-                                    <Link href="#features">Features</Link>
-                                </NavigationMenuLink>
-                            </NavigationMenuItem>
-
-                            {/* Company Dropdown */}
-                            <NavigationMenuItem>
-                                {/* <NavigationMenuTrigger className="rounded-full bg-transparent data-[state=open]:bg-muted/50">
-                                    Company
-                                </NavigationMenuTrigger> */}
-
-                                {/* <NavigationMenuContent>
-                                    <div className="grid w-[600px] grid-cols-2 gap-4 p-4">
-                                        <div className="flex flex-col gap-2">
-                                            {navigationData.company.primary.map((item, index) => {
-                                                const icons = [
-                                                    <Users key="users" className="h-5 w-5" />,
-                                                    <Star key="star" className="h-5 w-5" />,
-                                                    <Handshake
-                                                        key="handshake"
-                                                        className="h-5 w-5"
-                                                    />,
-                                                ]
-                                                return (
-                                                    <ListItemWithIcon
-                                                        key={item.href}
-                                                        href={item.href}
-                                                        title={item.title}
-                                                        icon={icons[index]}
-                                                        description={item.description}
-                                                    />
-                                                )
-                                            })}
-                                        </div>
-                                        <div className="flex flex-col gap-2 justify-center border-l pl-4">
-                                            {navigationData.company.secondary.map((item, index) => {
-                                                const icons = [
-                                                    <FileText key="file" className="h-4 w-4" />,
-                                                    <Leaf key="leaf" className="h-4 w-4" />,
-                                                    <HelpCircle key="help" className="h-4 w-4" />,
-                                                ]
-                                                return (
-                                                    <SimpleListItem
-                                                        key={item.href}
-                                                        href={item.href}
-                                                        icon={icons[index]}
-                                                    >
-                                                        {item.title}
-                                                    </SimpleListItem>
-                                                )
-                                            })}
-                                        </div>
-                                    </div>
-                                </NavigationMenuContent> */}
-
-                                <NavigationMenuLink
-                                    className={cn(
-                                        navigationMenuTriggerStyle(),
-                                        'rounded-full bg-transparent hover:bg-transparent hover:text-foreground/80',
-                                    )}
-                                    asChild
-                                >
-                                    <Link href="#how-it-works">Pricing</Link>
-                                </NavigationMenuLink>
-                            </NavigationMenuItem>
-
-                            {/* Pricing Link */}
-                            <NavigationMenuItem>
-                                <NavigationMenuLink
-                                    href="#testimonials"
-                                    className={cn(
-                                        navigationMenuTriggerStyle(),
-                                        'rounded-full bg-transparent hover:bg-transparent hover:text-foreground/80',
-                                    )}
-                                >
-                                    Testimonials
-                                </NavigationMenuLink>
+                                {navigationData.features.map((item) => (
+                                    <NavigationMenuLink
+                                        key={item.href}
+                                        className={cn(
+                                            navigationMenuTriggerStyle(),
+                                            'rounded-full bg-transparent hover:bg-transparent hover:text-foreground/80 cursor-pointer',
+                                        )}
+                                        onClick={(e) => {
+                                            e.preventDefault()
+                                            scrollToSection(item.href)
+                                        }}
+                                    >
+                                        {item.title}
+                                    </NavigationMenuLink>
+                                ))}
                             </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>

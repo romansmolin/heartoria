@@ -1,5 +1,7 @@
 'use client'
 
+import { useRef } from 'react'
+import { useGSAP } from '@/shared/hooks/use-gsap'
 import { Footer } from '@/widgets/footer'
 import { HeroSection } from '@/widgets/sections/hero-section'
 import { InfoGridSection } from '@/widgets/sections/info-grid-section'
@@ -10,25 +12,45 @@ import { CtaSection } from '@/widgets/sections/cta-section'
 import { ContactSection } from '@/widgets/sections/contact-section'
 
 export function LandingPage() {
+    const containerRef = useRef<HTMLDivElement>(null)
+
+    useGSAP(containerRef)
+
     return (
-        <div className="dark">
+        <div className="dark" ref={containerRef}>
             <div className="min-h-screen bg-background">
                 <div className="space-y-0">
-                    <HeroSection variant="variant-10" />
+                    <div data-animate="hero">
+                        <HeroSection variant="variant-10" />
+                    </div>
 
-                    <InfoGridSection variant="variant-01" />
+                    <div id="how-it-works" data-animate="info-grid">
+                        <InfoGridSection variant="variant-01" />
+                    </div>
 
-                    <SpeakersSection variant="variant-01" />
+                    <div data-animate="speakers">
+                        <SpeakersSection variant="variant-01" />
+                    </div>
 
-                    <FeatureSection variant="variant-05" />
+                    <div id="features" data-animate="features">
+                        <FeatureSection variant="variant-05" />
+                    </div>
 
-                    <TestimonialsSection variant="variant-04" />
+                    <div id="testimonials" data-animate="testimonials">
+                        <TestimonialsSection variant="variant-04" />
+                    </div>
 
-                    <CtaSection variant="variant-03" />
+                    <div data-animate="cta">
+                        <CtaSection variant="variant-03" />
+                    </div>
 
-                    <ContactSection variant="variant-01" />
+                    <div id="contact" data-animate="contact">
+                        <ContactSection variant="variant-01" />
+                    </div>
 
-                    <Footer variant="variant-02" />
+                    <div data-animate="footer">
+                        <Footer variant="variant-02" />
+                    </div>
                 </div>
             </div>
         </div>

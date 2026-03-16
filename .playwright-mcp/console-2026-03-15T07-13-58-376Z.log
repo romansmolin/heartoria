@@ -1,0 +1,2 @@
+[     866ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/match/discover?page=1&perPage=20:0
+[     867ms] [WARNING] [API] Unauthorized request @ http://localhost:3000/_next/static/chunks/166bf_next_dist_018d8d6d._.js:2297

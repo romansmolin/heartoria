@@ -93,7 +93,7 @@ export function SidebarVariant01({ ...props }: React.ComponentProps<typeof Sideb
                                 <div>
                                     <Logo aria-hidden="true" className="size-1" />
                                 </div>
-                                <h2 className="font-bold text-2xl">Your Brand</h2>
+                                <h2 className="font-bold text-2xl">HeartOria</h2>
                             </div>
                         </SidebarMenuButton>
                     </SidebarMenuItem>

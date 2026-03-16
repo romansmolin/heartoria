@@ -3,7 +3,7 @@ import { toast } from 'sonner'
 import { purchaseCredits } from '../api/client/services/credit-purchase.service'
 
 const PRESET_CREDITS = [100, 200, 500] as const
-const CENTS_PER_CREDIT = 0.5 // 100 credits = 0.50 EUR
+const CENTS_PER_CREDIT = 2 // 1 credit = €0.02
 
 type UseCreditPurchaseOptions = {
     onCheckoutReady?: () => void
@@ -39,7 +39,7 @@ export function useCreditPurchase(options: UseCreditPurchaseOptions = {}) {
         if (parsedCustomAmount === null) return 'Enter a valid amount'
         if (customAmountCents === null || customAmountCents <= 0) return 'Amount must be above €0'
         if (customAmountCents % CENTS_PER_CREDIT !== 0)
-            return 'Amount must be in €0.005 increments (half cent)'
+            return 'Amount must be in €0.02 increments'
         return null
     }, [customAmount, parsedCustomAmount, customAmountCents])
 

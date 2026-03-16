@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { Coins } from 'lucide-react'
 import { Button } from '@/shared/ui/button'
 import { Input } from '@/shared/ui/input'
 
@@ -65,10 +66,11 @@ export const CreditPurchaseForm = ({
     }
 
     return (
-        <div className="space-y-6">
+        <div className="space-y-5">
+            {/* Presets */}
             <div className="space-y-3">
-                <p className="text-sm font-semibold text-slate-800">Choose a credits pack</p>
-                <div className="grid gap-3 sm:grid-cols-3">
+                <p className="text-xs font-medium text-muted-foreground">Quick packs</p>
+                <div className="grid grid-cols-3 gap-2">
                     {presets.map((credits) => {
                         const isActive = selectedPreset === credits
                         return (
@@ -76,17 +78,14 @@ export const CreditPurchaseForm = ({
                                 key={credits}
                                 type="button"
                                 onClick={() => onSelectPreset(credits)}
-                                className={`rounded-2xl border px-4 py-3 text-left transition ${
+                                className={`rounded-xl border p-3 text-center transition-all ${
                                     isActive
-                                        ? 'border-slate-900 bg-slate-900 text-white'
-                                        : 'border-slate-200 bg-white text-slate-900 hover:border-slate-400'
+                                        ? 'border-primary bg-primary/10 ring-1 ring-primary/30'
+                                        : 'border-border bg-card/50 hover:border-primary/30 hover:bg-primary/5'
                                 }`}
                             >
-                                <p className="text-xs uppercase tracking-[0.2em] opacity-70">
-                                    Credits
-                                </p>
-                                <p className="mt-2 text-2xl font-semibold">{credits}</p>
-                                <p className="mt-1 text-xs opacity-70">
+                                <p className="text-lg font-bold">{credits}</p>
+                                <p className="text-[10px] text-muted-foreground">
                                     {formatCurrency(credits * EURO_PER_CREDIT)}
                                 </p>
                             </button>
@@ -95,88 +94,87 @@ export const CreditPurchaseForm = ({
                 </div>
             </div>
 
-            <div className="space-y-3">
+            {/* Custom amount */}
+            <div className="space-y-2">
                 <div className="flex items-center justify-between">
-                    <p className="text-sm font-semibold text-slate-800">Custom amount</p>
-                    <span className="text-xs text-slate-500">€0.02 per credit</span>
+                    <p className="text-xs font-medium text-muted-foreground">Custom amount</p>
+                    <span className="text-[10px] text-muted-foreground">€0.02/credit</span>
                 </div>
                 <Input
                     type="number"
                     inputMode="decimal"
                     step="0.02"
                     min="0"
-                    placeholder="Enter amount in EUR"
+                    placeholder="Enter EUR amount"
                     value={customAmount}
                     onChange={(event) => onCustomAmountChange(event.target.value)}
+                    className="rounded-lg"
                 />
-                <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
-                    <span>
-                        {customCredits ? `${customCredits} credits` : 'Enter an amount to see credits'}
+                <div className="flex items-center justify-between text-[11px]">
+                    <span className="text-muted-foreground">
+                        {customCredits ? `${customCredits} credits` : 'Enter amount to see credits'}
                     </span>
-                    {customError && <span className="text-rose-500">{customError}</span>}
+                    {customError && <span className="text-destructive">{customError}</span>}
                 </div>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-4">
-                <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Summary</p>
-                <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
-                    <div>
-                        <p className="text-sm text-slate-600">Credits</p>
-                        <p className="text-xl font-semibold text-slate-900">
-                            {selectedCredits ?? 0}
-                        </p>
+            {/* Summary + buy button */}
+            <div className="rounded-xl border bg-muted/30 p-4">
+                <div className="mb-3 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                        <Coins className="h-4 w-4 text-primary" />
+                        <span className="text-xs font-medium text-muted-foreground">Total</span>
                     </div>
-                    <div>
-                        <p className="text-sm text-slate-600">Amount</p>
-                        <p className="text-xl font-semibold text-slate-900">
+                    <div className="text-right">
+                        <p className="text-lg font-bold">{selectedCredits ?? 0} credits</p>
+                        <p className="text-xs text-muted-foreground">
                             {estimatedAmount ? formatCurrency(estimatedAmount) : '—'}
                         </p>
                     </div>
-                    <Button
-                        type="button"
-                        onClick={handleOpenConsent}
-                        disabled={!selectedCredits || Boolean(customError) || isSubmitting}
-                        data-testid="buy-credits-button"
-                        className="min-w-[160px]"
-                    >
-                        {isSubmitting ? 'Starting checkout...' : 'Buy credits'}
-                    </Button>
                 </div>
+                <Button
+                    type="button"
+                    onClick={handleOpenConsent}
+                    disabled={!selectedCredits || Boolean(customError) || isSubmitting}
+                    data-testid="buy-credits-button"
+                    className="w-full rounded-lg"
+                >
+                    {isSubmitting ? 'Starting checkout...' : 'Buy Credits'}
+                </Button>
             </div>
 
+            {/* Consent modal */}
             {isConsentOpen && (
                 <div
-                    className="fixed inset-0 z-40 flex items-center justify-center bg-slate-900/40 p-4"
+                    className="fixed inset-0 z-40 flex items-center justify-center bg-background/80 backdrop-blur-sm p-4"
                     data-testid="credits-consent-modal"
                 >
-                    <div className="w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl">
+                    <div className="w-full max-w-lg rounded-2xl border bg-card p-6 shadow-xl">
                         <div className="space-y-2">
-                            <p className="text-sm font-semibold text-slate-900">
-                                Confirm consent
-                            </p>
-                            <p className="text-sm text-slate-600">
+                            <p className="text-sm font-semibold">Confirm consent</p>
+                            <p className="text-sm text-muted-foreground">
                                 Please confirm you agree before proceeding to checkout.
                             </p>
                         </div>
-                        <div className="mt-4 flex items-start gap-2">
+                        <div className="mt-4 flex items-start gap-3">
                             <input
                                 id="credits-consent"
                                 type="checkbox"
-                                className="mt-1 h-4 w-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900"
+                                className="mt-1 h-4 w-4 rounded accent-primary"
                                 checked={consentChecked}
                                 onChange={(event) => setConsentChecked(event.target.checked)}
                                 data-testid="credits-consent-checkbox"
                             />
                             <label
                                 htmlFor="credits-consent"
-                                className="text-sm leading-snug text-slate-600"
+                                className="text-sm leading-relaxed text-muted-foreground"
                             >
                                 I agree to the{' '}
                                 <a
                                     href="/terms-of-service"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="underline hover:text-slate-900"
+                                    className="text-primary underline hover:text-primary/80"
                                     data-testid="credits-terms-link"
                                 >
                                     Terms of Service
@@ -186,7 +184,7 @@ export const CreditPurchaseForm = ({
                                     href="/privacy-policy"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="underline hover:text-slate-900"
+                                    className="text-primary underline hover:text-primary/80"
                                     data-testid="credits-privacy-link"
                                 >
                                     Privacy Policy
@@ -196,7 +194,7 @@ export const CreditPurchaseForm = ({
                                     href="/return-policy"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="underline hover:text-slate-900"
+                                    className="text-primary underline hover:text-primary/80"
                                     data-testid="credits-return-link"
                                 >
                                     Return Policy
@@ -204,11 +202,12 @@ export const CreditPurchaseForm = ({
                                 .
                             </label>
                         </div>
-                        <div className="mt-6 flex flex-wrap justify-end gap-2">
+                        <div className="mt-6 flex justify-end gap-2">
                             <Button
                                 type="button"
                                 variant="outline"
                                 onClick={handleCloseConsent}
+                                className="rounded-lg"
                                 data-testid="credits-consent-cancel"
                             >
                                 Cancel
@@ -217,6 +216,7 @@ export const CreditPurchaseForm = ({
                                 type="button"
                                 onClick={handleConfirmConsent}
                                 disabled={!consentChecked}
+                                className="rounded-lg"
                                 data-testid="credits-consent-confirm"
                             >
                                 Continue to checkout
@@ -226,19 +226,18 @@ export const CreditPurchaseForm = ({
                 </div>
             )}
 
+            {/* Checkout iframe modal */}
             {checkoutUrl && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/40 p-4">
-                    <div className="relative h-[80vh] w-full max-w-3xl overflow-hidden rounded-2xl bg-white shadow-xl">
-                        <div className="flex items-center justify-between border-b border-slate-200 px-4 py-3">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm p-4">
+                    <div className="relative h-[80vh] w-full max-w-3xl overflow-hidden rounded-2xl border bg-card shadow-xl">
+                        <div className="flex items-center justify-between border-b px-5 py-3">
                             <div>
-                                <p className="text-sm font-semibold text-slate-900">
-                                    Secure checkout
-                                </p>
-                                <p className="text-xs text-slate-500">
+                                <p className="text-sm font-semibold">Secure checkout</p>
+                                <p className="text-xs text-muted-foreground">
                                     Complete payment to add credits
                                 </p>
                             </div>
-                            <Button variant="outline" size="sm" onClick={onCloseCheckout}>
+                            <Button variant="outline" size="sm" onClick={onCloseCheckout} className="rounded-lg">
                                 Close
                             </Button>
                         </div>

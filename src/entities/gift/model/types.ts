@@ -70,3 +70,19 @@ export interface GiftHistoryItem {
 export interface GiftHistoryResponse {
     items: GiftHistoryItem[]
 }
+
+// ─── Received ───
+
+export interface ReceivedGiftItem {
+    id: string
+    giftId: string
+    giftName: string
+    giftImagePath: string
+    senderUserId: string
+    priceCoins: number
+    createdAt: string
+}
+
+export interface ReceivedGiftsResponse {
+    items: ReceivedGiftItem[]
+}

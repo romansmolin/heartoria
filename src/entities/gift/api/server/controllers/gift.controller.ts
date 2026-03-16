@@ -34,6 +34,12 @@ export class GiftController {
         return NextResponse.json(result)
     }
 
+    async getReceivedGifts(request: NextRequest, userId: string): Promise<NextResponse> {
+        const limit = parseLimit(new URL(request.url))
+        const result = await this.service.listReceivedGifts(userId, limit)
+        return NextResponse.json(result)
+    }
+
     async getHistory(request: NextRequest, userId: string): Promise<NextResponse> {
         const limit = parseLimit(new URL(request.url))
         const result = await this.service.listHistory(userId, limit)

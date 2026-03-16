@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-    title: 'Your Brand',
-    description: 'Your Brand application.',
+    title: 'HeartOria',
+    description: 'HeartOria application.',
 }
 
 export default async function RootLayout({

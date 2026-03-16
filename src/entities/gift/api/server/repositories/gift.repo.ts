@@ -44,6 +44,17 @@ export interface BuyGiftTransactionalResult {
     inventoryQuantity: number
 }
 
+export interface ReceivedGiftRow {
+    id: string
+    giftId: string
+    giftSlug: string
+    giftName: string
+    giftImagePath: string
+    senderUserId: string
+    priceCoins: number
+    createdAt: Date
+}
+
 export interface SendGiftTransactionalInput {
     senderUserId: string
     recipientDatingUserId: number
@@ -153,6 +164,42 @@ export class GiftRepository {
                     giftName: gift.name,
                     giftImagePath: gift.imagePath,
                     recipientDatingUserId: r.recipientDatingUserId,
+                    priceCoins: r.priceCoins,
+                    createdAt: r.createdAt,
+                }
+            })
+    }
+
+    async listReceivedGifts(
+        recipientDatingUserId: number,
+        limit = 50,
+    ): Promise<ReceivedGiftRow[]> {
+        const rows = await prisma.gift_send.findMany({
+            where: { recipientDatingUserId },
+            orderBy: { createdAt: 'desc' },
+            take: limit,
+        })
+
+        const giftIds = [...new Set(rows.map((r) => r.giftId))]
+        const gifts = await prisma.gift_catalog.findMany({
+            where: {
+                id: { in: giftIds },
+                slug: { in: PROJECT_GIFT_SLUGS },
+            },
+        })
+        const giftMap = new Map(gifts.map((g) => [g.id, g]))
+
+        return rows
+            .filter((r) => giftMap.has(r.giftId))
+            .map((r) => {
+                const gift = giftMap.get(r.giftId)!
+                return {
+                    id: r.id,
+                    giftId: r.giftId,
+                    giftSlug: gift.slug,
+                    giftName: gift.name,
+                    giftImagePath: gift.imagePath,
+                    senderUserId: r.senderUserId,
                     priceCoins: r.priceCoins,
                     createdAt: r.createdAt,
                 }

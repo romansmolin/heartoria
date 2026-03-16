@@ -5,6 +5,8 @@ export type {
     GiftInventoryResponse,
     GiftHistoryItem,
     GiftHistoryResponse,
+    ReceivedGiftItem,
+    ReceivedGiftsResponse,
     BuyGiftRequest,
     BuyGiftResponse,
     SendGiftRequest,
@@ -14,6 +16,7 @@ export type {
 export {
     useGetGiftCatalogQuery,
     useGetGiftInventoryQuery,
+    useGetReceivedGiftsQuery,
     useGetGiftHistoryQuery,
     useBuyGiftMutation,
     useSendGiftMutation,

@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import { Input } from '@/shared/ui/input'
-import { Button } from '@/shared/ui/button'
 import { cn } from '@/shared/lib/css/utils'
 import type { FooterProps } from '../../model/types'
 
@@ -10,25 +8,24 @@ const defaultFooterLinks = [
         links: [
             { text: 'How It Works', url: '#features' },
             { text: 'Success Stories', url: '#testimonials' },
-            { text: 'Safety Tips', url: '#' },
-            { text: 'Community', url: '#' },
+            { text: 'Dashboard', url: '/dashboard' },
+            { text: 'Discover', url: '/match' },
         ],
     },
     {
-        title: 'Company',
+        title: 'Account',
         links: [
-            { text: 'About', url: '#' },
-            { text: 'Blog', url: '#' },
-            { text: 'Careers', url: '#' },
-            { text: 'Press', url: '#' },
+            { text: 'Sign In', url: '/auth' },
+            { text: 'Profile', url: '/profile' },
+            { text: 'Wallet', url: '/wallet' },
         ],
     },
     {
         title: 'Legal',
         links: [
-            { text: 'Privacy Policy', url: '#' },
-            { text: 'Terms of Service', url: '#' },
-            { text: 'Cookie Policy', url: '#' },
+            { text: 'Terms of Service', url: '/terms-of-service' },
+            { text: 'Privacy Policy', url: '/privacy-policy' },
+            { text: 'Return Policy', url: '/return-policy' },
         ],
     },
 ]
@@ -45,16 +42,9 @@ export function FooterVariant02({ className, menuItems, copyright }: FooterProps
                             Heartoria<span className="text-primary">.</span>
                         </Link>
                         <p className="mb-4 mt-4 max-w-xs text-sm text-muted-foreground">
-                            Where real connections begin. Find someone who truly fits your life
-                            with AI-powered compatibility matching.
+                            Where real connections begin. Find someone who truly fits your life with
+                            AI-powered compatibility matching.
                         </p>
-                        <div className="flex gap-2">
-                            <Input
-                                placeholder="Enter your email"
-                                className="max-w-[240px]"
-                            />
-                            <Button>Subscribe</Button>
-                        </div>
                     </div>
 
                     {links.map((section) => (
@@ -80,19 +70,9 @@ export function FooterVariant02({ className, menuItems, copyright }: FooterProps
 
                 <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
                     <p className="text-sm text-muted-foreground">
-                        {copyright ?? `\u00A9 ${new Date().getFullYear()} Heartoria. All rights reserved.`}
+                        {copyright ??
+                            `\u00A9 ${new Date().getFullYear()} Heartoria. All rights reserved.`}
                     </p>
-                    <div className="flex gap-6">
-                        {['Twitter', 'Instagram', 'TikTok'].map((social) => (
-                            <Link
-                                key={social}
-                                href="#"
-                                className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                            >
-                                {social}
-                            </Link>
-                        ))}
-                    </div>
                 </div>
             </div>
         </footer>

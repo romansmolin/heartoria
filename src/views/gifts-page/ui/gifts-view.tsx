@@ -5,6 +5,8 @@ import { Coins } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/shared/ui/tabs'
 import { useWallet } from '@/features/credit-wallet'
 import { GiftShopSection } from './components/gift-shop-section'
+import { CurrentGiftsSection } from './components/current-gifts-section'
+import { ReceivedGiftsSection } from './components/received-gifts-section'
 import { GiftHistorySection } from './components/gift-history-section'
 
 export function GiftsView() {
@@ -35,6 +37,8 @@ export function GiftsView() {
                 <Tabs defaultValue="shop">
                     <TabsList>
                         <TabsTrigger value="shop">Shop</TabsTrigger>
+                        <TabsTrigger value="inventory">My Gifts</TabsTrigger>
+                        <TabsTrigger value="received">Received</TabsTrigger>
                         <TabsTrigger value="history">History</TabsTrigger>
                     </TabsList>
 
@@ -59,6 +63,14 @@ export function GiftsView() {
                             })}
                         </div>
                         <GiftShopSection activeCategory={activeCategory} />
+                    </TabsContent>
+
+                    <TabsContent value="inventory" className="mt-6">
+                        <CurrentGiftsSection />
+                    </TabsContent>
+
+                    <TabsContent value="received" className="mt-6">
+                        <ReceivedGiftsSection />
                     </TabsContent>
 
                     <TabsContent value="history" className="mt-6">

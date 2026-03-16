@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import { Search } from 'lucide-react'
+import { SlidersHorizontal } from 'lucide-react'
 import { Button } from '@/shared/ui/button'
 import { Input } from '@/shared/ui/input'
 import { Label } from '@/shared/ui/label'
@@ -35,80 +35,100 @@ export function SearchFilters({ onApply, isLoading }: SearchFiltersProps) {
     }, [minAge, maxAge, gender, location, hasPhoto, isOnline, onApply])
 
     return (
-        <div className="rounded-lg border bg-card p-4">
-            <div className="mb-3 flex items-center gap-2 text-sm font-medium">
-                <Search className="h-4 w-4" />
-                Search Filters
+        <div className="sticky top-4 rounded-2xl border bg-card/50 p-5 backdrop-blur-sm">
+            <div className="mb-4 flex items-center gap-2.5">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10">
+                    <SlidersHorizontal className="h-4 w-4 text-primary" />
+                </div>
+                <span className="text-sm font-semibold">Filters</span>
             </div>
-            <div className="grid grid-cols-2 gap-3">
-                <div className="space-y-1">
-                    <Label className="text-xs">Min Age</Label>
-                    <Input
-                        type="number"
-                        placeholder="18"
-                        value={minAge}
-                        onChange={(e) => setMinAge(e.target.value)}
-                    />
+
+            <div className="space-y-4">
+                {/* Age range */}
+                <div>
+                    <Label className="mb-2 block text-xs font-medium text-muted-foreground">
+                        Age Range
+                    </Label>
+                    <div className="flex items-center gap-2">
+                        <Input
+                            type="number"
+                            placeholder="18"
+                            value={minAge}
+                            onChange={(e) => setMinAge(e.target.value)}
+                            className="h-9 rounded-lg"
+                        />
+                        <span className="text-xs text-muted-foreground">to</span>
+                        <Input
+                            type="number"
+                            placeholder="99"
+                            value={maxAge}
+                            onChange={(e) => setMaxAge(e.target.value)}
+                            className="h-9 rounded-lg"
+                        />
+                    </div>
                 </div>
-                <div className="space-y-1">
-                    <Label className="text-xs">Max Age</Label>
-                    <Input
-                        type="number"
-                        placeholder="99"
-                        value={maxAge}
-                        onChange={(e) => setMaxAge(e.target.value)}
-                    />
-                </div>
-                <div className="space-y-1">
-                    <Label className="text-xs">Gender</Label>
+
+                {/* Gender */}
+                <div>
+                    <Label className="mb-2 block text-xs font-medium text-muted-foreground">
+                        Looking for
+                    </Label>
                     <select
-                        className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm"
+                        className="flex h-9 w-full rounded-lg border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                         value={gender}
                         onChange={(e) => setGender(e.target.value)}
                     >
-                        <option value="">Any</option>
-                        <option value="1">Man</option>
-                        <option value="2">Woman</option>
-                        <option value="3">Couple</option>
+                        <option value="">Anyone</option>
+                        <option value="1">Men</option>
+                        <option value="2">Women</option>
+                        <option value="3">Couples</option>
                     </select>
                 </div>
-                <div className="space-y-1">
-                    <Label className="text-xs">Location</Label>
+
+                {/* Location */}
+                <div>
+                    <Label className="mb-2 block text-xs font-medium text-muted-foreground">
+                        Location
+                    </Label>
                     <Input
                         type="text"
-                        placeholder="City"
+                        placeholder="Enter city..."
                         value={location}
                         onChange={(e) => setLocation(e.target.value)}
+                        className="h-9 rounded-lg"
                     />
                 </div>
+
+                {/* Toggle options */}
+                <div className="space-y-2.5">
+                    <label className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-1.5 text-sm transition-colors hover:bg-muted/50">
+                        <input
+                            type="checkbox"
+                            checked={hasPhoto}
+                            onChange={(e) => setHasPhoto(e.target.checked)}
+                            className="h-4 w-4 rounded border-input accent-primary"
+                        />
+                        <span className="text-xs">With photos only</span>
+                    </label>
+                    <label className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-1.5 text-sm transition-colors hover:bg-muted/50">
+                        <input
+                            type="checkbox"
+                            checked={isOnline}
+                            onChange={(e) => setIsOnline(e.target.checked)}
+                            className="h-4 w-4 rounded border-input accent-primary"
+                        />
+                        <span className="text-xs">Online now</span>
+                    </label>
+                </div>
             </div>
-            <div className="mt-3 flex items-center gap-4">
-                <label className="flex items-center gap-2 text-xs">
-                    <input
-                        type="checkbox"
-                        checked={hasPhoto}
-                        onChange={(e) => setHasPhoto(e.target.checked)}
-                        className="rounded border-input"
-                    />
-                    Has photo
-                </label>
-                <label className="flex items-center gap-2 text-xs">
-                    <input
-                        type="checkbox"
-                        checked={isOnline}
-                        onChange={(e) => setIsOnline(e.target.checked)}
-                        className="rounded border-input"
-                    />
-                    Online now
-                </label>
-            </div>
+
             <Button
                 size="sm"
-                className="mt-3 w-full"
+                className="mt-5 w-full rounded-lg"
                 onClick={handleApply}
                 disabled={isLoading}
             >
-                Apply Filters
+                {isLoading ? 'Searching...' : 'Apply Filters'}
             </Button>
         </div>
     )

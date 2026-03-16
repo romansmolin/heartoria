@@ -10,7 +10,7 @@ export function HeroVariant10({ content, className }: HeroVariantProps) {
     return (
         <section
             className={cn(
-                'relative flex sm:min-h-screen flex-col justify-center overflow-hidden px-4 py-6 sm:px-6 sm:py-8 md:px-10 md:py-10',
+                'relative flex sm:h-[100dvh] sm:max-h-screen flex-col justify-center overflow-hidden px-4 pt-12 pb-6 sm:px-6 sm:pb-8 md:px-10 md:pb-10',
                 className,
             )}
         >
@@ -63,7 +63,6 @@ export function HeroVariant10({ content, className }: HeroVariantProps) {
                 <IllustrationHeart className="size-10 sm:size-16 lg:size-24 absolute -right-2 sm:-right-4 bottom-12 -rotate-12 opacity-20" />
                 <IllustrationHeart className="hidden sm:block size-8 lg:size-10 absolute right-40 lg:right-80 bottom-8 rotate-30 opacity-35" />
                 <IllustrationHeart className="size-5 sm:size-6 absolute right-12 sm:right-24 bottom-28 -rotate-35 opacity-25" />
-                <IllustrationHeart className="hidden sm:block size-10 lg:size-16 absolute right-32 lg:right-64 bottom-[55%] rotate-6 opacity-15" />
 
                 {/* Left side & edges */}
                 <IllustrationHeart className="size-8 sm:size-10 md:size-12 absolute left-[15%] top-4 -rotate-25 opacity-20" />

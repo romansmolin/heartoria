@@ -2,7 +2,7 @@ import { DashboardPage } from '@/views/dashboard-page'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Your Brand — Dashboard',
+    title: 'HeartOria — Dashboard',
     description: 'View your dashboard and key metrics.',
 }
 

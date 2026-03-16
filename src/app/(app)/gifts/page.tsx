@@ -2,7 +2,7 @@ import { GiftsView } from '@/views/gifts-page'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Your Brand — Gifts',
+    title: 'HeartOria — Gifts',
     description: 'Browse and send gifts.',
 }
 

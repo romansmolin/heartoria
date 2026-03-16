@@ -2,7 +2,6 @@
 
 import { Heart, MapPin, User, X } from 'lucide-react'
 import { Button } from '@/shared/ui/button'
-import { Card, CardContent } from '@/shared/ui/card'
 import type { MatchCandidate, MatchAction } from '@/entities/match'
 
 interface SwipeMatchCardProps {
@@ -14,57 +13,67 @@ export function SwipeMatchCard({ candidate, onSwipe }: SwipeMatchCardProps) {
     const primaryPhoto = candidate.photos?.find((p) => p.isPrimary)?.url ?? candidate.avatarUrl
 
     return (
-        <Card className="w-full max-w-sm overflow-hidden">
-            <div className="relative aspect-[3/4] bg-slate-100">
-                {primaryPhoto ? (
-                    <img
-                        src={primaryPhoto}
-                        alt={candidate.username}
-                        className="h-full w-full object-cover"
-                    />
-                ) : (
-                    <div className="flex h-full items-center justify-center">
-                        <User className="h-20 w-20 text-slate-300" />
-                    </div>
-                )}
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                    <h3 className="text-lg font-semibold text-white">
-                        {candidate.username}
-                        {candidate.age && <span>, {candidate.age}</span>}
-                    </h3>
-                    {candidate.location && (
-                        <p className="flex items-center gap-1 text-sm text-white/80">
-                            <MapPin className="h-3 w-3" />
-                            {candidate.location}
-                        </p>
+        <div className="group relative w-full max-w-sm">
+            {/* Card */}
+            <div className="overflow-hidden rounded-2xl border border-border/50 bg-card shadow-xl shadow-black/5">
+                <div className="relative aspect-[3/4] bg-muted">
+                    {primaryPhoto ? (
+                        <img
+                            src={primaryPhoto}
+                            alt={candidate.username}
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                    ) : (
+                        <div className="flex h-full items-center justify-center bg-gradient-to-br from-primary/5 to-primary/20">
+                            <User className="h-20 w-20 text-muted-foreground/30" />
+                        </div>
                     )}
+
+                    {/* Gradient overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+
+                    {/* Info overlay */}
+                    <div className="absolute bottom-0 left-0 right-0 p-5">
+                        <h3 className="text-xl font-bold text-white">
+                            {candidate.username}
+                            {candidate.age && (
+                                <span className="ml-1 font-normal text-white/70">, {candidate.age}</span>
+                            )}
+                        </h3>
+                        {candidate.location && (
+                            <p className="mt-1 flex items-center gap-1.5 text-sm text-white/70">
+                                <MapPin className="h-3.5 w-3.5" />
+                                {candidate.location}
+                            </p>
+                        )}
+                        {candidate.description && (
+                            <p className="mt-2 text-sm leading-relaxed text-white/60 line-clamp-2">
+                                {candidate.description}
+                            </p>
+                        )}
+                    </div>
                 </div>
             </div>
-            <CardContent className="p-4">
-                {candidate.description && (
-                    <p className="mb-4 text-sm text-muted-foreground line-clamp-2">
-                        {candidate.description}
-                    </p>
-                )}
-                <div className="flex justify-center gap-4">
-                    <Button
-                        variant="outline"
-                        size="lg"
-                        className="h-14 w-14 rounded-full border-red-200 text-red-500 hover:bg-red-50 hover:text-red-600"
-                        onClick={() => onSwipe('dislike')}
-                    >
-                        <X className="h-6 w-6" />
-                    </Button>
-                    <Button
-                        variant="outline"
-                        size="lg"
-                        className="h-14 w-14 rounded-full border-green-200 text-green-500 hover:bg-green-50 hover:text-green-600"
-                        onClick={() => onSwipe('like')}
-                    >
-                        <Heart className="h-6 w-6" />
-                    </Button>
-                </div>
-            </CardContent>
-        </Card>
+
+            {/* Action buttons — floated below card */}
+            <div className="mt-5 flex justify-center gap-5">
+                <Button
+                    variant="outline"
+                    size="lg"
+                    className="h-16 w-16 rounded-full border-2 border-red-500/30 bg-card text-red-500 shadow-lg shadow-red-500/10 transition-all hover:scale-110 hover:border-red-500 hover:bg-red-500 hover:text-white hover:shadow-red-500/25"
+                    onClick={() => onSwipe('dislike')}
+                >
+                    <X className="h-7 w-7" />
+                </Button>
+                <Button
+                    variant="outline"
+                    size="lg"
+                    className="h-16 w-16 rounded-full border-2 border-green-500/30 bg-card text-green-500 shadow-lg shadow-green-500/10 transition-all hover:scale-110 hover:border-green-500 hover:bg-green-500 hover:text-white hover:shadow-green-500/25"
+                    onClick={() => onSwipe('like')}
+                >
+                    <Heart className="h-7 w-7" />
+                </Button>
+            </div>
+        </div>
     )
 }

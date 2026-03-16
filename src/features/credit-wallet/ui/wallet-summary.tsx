@@ -1,3 +1,4 @@
+import { Coins, TrendingDown, TrendingUp, Clock } from 'lucide-react'
 import type { WalletSummary as WalletSummaryType } from '../api/client/services/wallet.service'
 
 type WalletSummaryProps = {
@@ -18,39 +19,47 @@ const formatCurrency = (amount: number, currency: string) => {
 
 export const WalletSummary = ({ summary }: WalletSummaryProps) => {
     return (
-        <div className="grid gap-4 md:grid-cols-2">
-            <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-                <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Balance</p>
-                <p className="mt-3 text-3xl font-semibold text-slate-900">
-                    {summary.balance} credits
-                </p>
-                <p className="mt-1 text-sm text-slate-500">
-                    {formatCurrency(summary.balance * 0.02, summary.currency)}
-                </p>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {/* Balance - highlighted */}
+            <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/10 via-card to-card p-5">
+                <div className="pointer-events-none absolute -right-6 -top-6 h-20 w-20 rounded-full bg-primary/10 blur-2xl" />
+                <div className="relative">
+                    <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10">
+                        <Coins className="h-4.5 w-4.5 text-primary" />
+                    </div>
+                    <p className="text-xs font-medium text-muted-foreground">Balance</p>
+                    <p className="mt-1 text-2xl font-bold">{summary.balance}</p>
+                    <p className="mt-0.5 text-xs text-muted-foreground">
+                        {formatCurrency(summary.balance * 0.02, summary.currency)}
+                    </p>
+                </div>
             </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                    <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
-                        Total purchased
-                    </p>
-                    <p className="mt-2 text-2xl font-semibold text-slate-900">
-                        {summary.totalPurchased}
-                    </p>
+
+            {/* Total purchased */}
+            <div className="rounded-2xl border bg-card/50 p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-green-500/10">
+                    <TrendingUp className="h-4.5 w-4.5 text-green-500" />
                 </div>
-                <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                    <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Total spent</p>
-                    <p className="mt-2 text-2xl font-semibold text-slate-900">
-                        {summary.totalSpent}
-                    </p>
+                <p className="text-xs font-medium text-muted-foreground">Purchased</p>
+                <p className="mt-1 text-2xl font-bold">{summary.totalPurchased}</p>
+            </div>
+
+            {/* Total spent */}
+            <div className="rounded-2xl border bg-card/50 p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-red-500/10">
+                    <TrendingDown className="h-4.5 w-4.5 text-red-500" />
                 </div>
-                <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:col-span-2">
-                    <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
-                        Pending credits
-                    </p>
-                    <p className="mt-2 text-2xl font-semibold text-slate-900">
-                        {summary.pendingCredits}
-                    </p>
+                <p className="text-xs font-medium text-muted-foreground">Spent</p>
+                <p className="mt-1 text-2xl font-bold">{summary.totalSpent}</p>
+            </div>
+
+            {/* Pending */}
+            <div className="rounded-2xl border bg-card/50 p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-500/10">
+                    <Clock className="h-4.5 w-4.5 text-yellow-500" />
                 </div>
+                <p className="text-xs font-medium text-muted-foreground">Pending</p>
+                <p className="mt-1 text-2xl font-bold">{summary.pendingCredits}</p>
             </div>
         </div>
     )

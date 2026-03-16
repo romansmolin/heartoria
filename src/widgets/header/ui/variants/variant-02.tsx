@@ -8,18 +8,25 @@ import { cn } from '@/shared/lib/css/utils'
 import type { NavigationData } from '../../model/types'
 
 const defaultNavData: NavigationData = {
-    logo: { text: 'NEXUS', href: '/' },
+    logo: { text: 'HeartOria', href: '/' },
     features: [
-        { title: 'Agenda', href: '#agenda' },
-        { title: 'Speakers', href: '#speakers' },
-        { title: 'Tickets', href: '#tickets' },
-        { title: 'Contact', href: '#contact' },
+        { title: 'Features', href: '#features' },
+        { title: 'Testimonials', href: '#testimonials' },
     ],
     company: { primary: [], secondary: [] },
     cta: {
-        login: { label: 'Log In', href: '/auth' },
-        primary: { label: 'Register Now', href: '#register' },
+        login: { label: 'Login', href: '/auth' },
+        primary: { label: 'Get Started', href: '/auth' },
     },
+}
+
+function scrollToSection(href: string) {
+    const id = href.replace('#', '')
+    const el = document.getElementById(id)
+    if (!el) return
+
+    el.style.visibility = 'visible'
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
 interface HeaderVariant02Props {
@@ -41,13 +48,14 @@ export function HeaderVariant02({ className, navigationData }: HeaderVariant02Pr
 
                 <nav className="hidden items-center gap-8 md:flex">
                     {nav.features.map((link) => (
-                        <Link
+                        <button
                             key={link.title}
-                            href={link.href}
+                            type="button"
+                            onClick={() => scrollToSection(link.href)}
                             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                         >
                             {link.title}
-                        </Link>
+                        </button>
                     ))}
                 </nav>
 
@@ -73,14 +81,17 @@ export function HeaderVariant02({ className, navigationData }: HeaderVariant02Pr
                 <div className="border-t border-border bg-background px-4 py-4 md:hidden">
                     <nav className="flex flex-col gap-4">
                         {nav.features.map((link) => (
-                            <Link
+                            <button
                                 key={link.title}
-                                href={link.href}
-                                className="text-sm text-muted-foreground hover:text-foreground"
-                                onClick={() => setMobileOpen(false)}
+                                type="button"
+                                className="text-left text-sm text-muted-foreground hover:text-foreground"
+                                onClick={() => {
+                                    setMobileOpen(false)
+                                    scrollToSection(link.href)
+                                }}
                             >
                                 {link.title}
-                            </Link>
+                            </button>
                         ))}
                         <div className="flex flex-col gap-2 pt-4">
                             <Button variant="outline" size="sm" asChild>

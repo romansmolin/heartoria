@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
-import { ImagePlus, Trash2, Loader2, User } from 'lucide-react'
+import { ImagePlus, Trash2, Loader2, Plus } from 'lucide-react'
 import { Button } from '@/shared/ui/button'
 import { usePhotoManagement } from '../model/use-photo-management'
 import type { UserProfilePhoto } from '@/entities/user/model/types'
@@ -24,68 +24,66 @@ export function PhotoGallery({ initialPhotos }: PhotoGalleryProps) {
 
     return (
         <div className="space-y-4">
-            <div className="flex items-center justify-between">
-                <h3 className="text-sm font-medium">Photos</h3>
-                <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => fileInputRef.current?.click()}
-                    disabled={isUploading}
-                >
-                    {isUploading ? (
-                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    ) : (
-                        <ImagePlus className="mr-2 h-4 w-4" />
-                    )}
-                    Upload
-                </Button>
-                <input
-                    ref={fileInputRef}
-                    type="file"
-                    accept="image/*"
-                    className="hidden"
-                    onChange={handleFileChange}
-                />
-            </div>
+            <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                className="hidden"
+                onChange={handleFileChange}
+            />
 
-            {photos.length === 0 && (
-                <div className="flex flex-col items-center justify-center rounded-lg border border-dashed p-8">
-                    <User className="mb-2 h-8 w-8 text-muted-foreground" />
-                    <p className="text-sm text-muted-foreground">No photos yet. Upload your first photo!</p>
-                </div>
-            )}
-
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
                 {photos.map((photo) => (
                     <div
                         key={photo.id}
-                        className="group relative aspect-square overflow-hidden rounded-lg border bg-muted"
+                        className="group relative aspect-square overflow-hidden rounded-xl border bg-muted transition-shadow hover:shadow-lg hover:shadow-primary/5"
                     >
                         <img
                             src={photo.url}
                             alt="Profile photo"
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                         />
+                        {/* Hover overlay */}
+                        <div className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/20" />
                         {photo.isPrimary && (
-                            <span className="absolute left-1 top-1 rounded bg-primary px-1.5 py-0.5 text-[10px] font-medium text-primary-foreground">
+                            <span className="absolute left-2 top-2 rounded-md bg-primary px-2 py-0.5 text-[10px] font-semibold text-primary-foreground shadow-sm">
                                 Main
                             </span>
                         )}
                         <Button
                             variant="destructive"
                             size="sm"
-                            className="absolute right-1 top-1 h-7 w-7 p-0 opacity-0 transition-opacity group-hover:opacity-100"
+                            className="absolute right-2 top-2 h-8 w-8 rounded-lg p-0 opacity-0 shadow-lg transition-all group-hover:opacity-100"
                             onClick={() => deletePhoto(photo.id)}
                             disabled={deletingId === photo.id}
                         >
                             {deletingId === photo.id ? (
-                                <Loader2 className="h-3 w-3 animate-spin" />
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
                             ) : (
-                                <Trash2 className="h-3 w-3" />
+                                <Trash2 className="h-3.5 w-3.5" />
                             )}
                         </Button>
                     </div>
                 ))}
+
+                {/* Upload tile */}
+                <button
+                    type="button"
+                    onClick={() => fileInputRef.current?.click()}
+                    disabled={isUploading}
+                    className="flex aspect-square flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed border-primary/20 bg-primary/5 text-primary transition-all hover:border-primary/40 hover:bg-primary/10 disabled:opacity-50"
+                >
+                    {isUploading ? (
+                        <Loader2 className="h-6 w-6 animate-spin" />
+                    ) : (
+                        <>
+                            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
+                                <Plus className="h-5 w-5" />
+                            </div>
+                            <span className="text-xs font-medium">Add Photo</span>
+                        </>
+                    )}
+                </button>
             </div>
         </div>
     )
