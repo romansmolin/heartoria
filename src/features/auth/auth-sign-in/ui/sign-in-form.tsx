@@ -6,7 +6,11 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useRouter } from 'next/navigation'
 
 import { useSignInMutation } from '../api/client/endpoints'
-import { SignInDto, signInSchema } from '@/features/auth/auth-sign-in/contracts/sign-in.dto'
+import {
+    SignInDto,
+    SignInFormValues,
+    signInSchema,
+} from '@/features/auth/auth-sign-in/contracts/sign-in.dto'
 import { normalizeError } from '@/shared/api/client/error-normalizer'
 import { Alert } from '@/shared/ui/alert'
 import { Button } from '@/shared/ui/button'
@@ -22,7 +26,7 @@ export function SignInForm() {
         register,
         handleSubmit,
         formState: { errors },
-    } = useForm<SignInDto>({
+    } = useForm<SignInFormValues, unknown, SignInDto>({
         resolver: zodResolver(signInSchema),
         defaultValues: {
             rememberMe: false,

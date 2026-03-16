@@ -9,4 +9,5 @@ export const signInSchema = z.object({
   }),
 });
 
-export type SignInDto = z.infer<typeof signInSchema>;
+export type SignInFormValues = z.input<typeof signInSchema>;
+export type SignInDto = z.output<typeof signInSchema>;
